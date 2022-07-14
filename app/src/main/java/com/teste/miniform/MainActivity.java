@@ -8,6 +8,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -57,7 +58,12 @@ public class MainActivity extends AppCompatActivity {
         sexo();
         programacaoSelec();
         result.setText("nome: "+campoNome.getText().toString()+" "+texto);
+            Toast.makeText(
+                    getApplicationContext(),
+                    "Salvo com sucesso",
+                    Toast.LENGTH_LONG
+            ).show();
+        }
     }
 
 
-}
