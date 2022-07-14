@@ -33,13 +33,13 @@
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radioButton3"
+            android:id="@+id/sM"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Masculino" />
 
         <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/sF"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Feminino" />
